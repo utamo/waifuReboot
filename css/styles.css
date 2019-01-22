@@ -110,9 +110,9 @@ body {
     padding: 2vw;
     color: #f3f3f3;
 }
-/*Queries*/
+/* queries*/
 
-/*Querie pra 800px*/
+/*portrait 800px querie*/
 @media screen and (max-width: 800px) {
     
     .header-texts h1 {
@@ -133,7 +133,7 @@ body {
         height:50vh;
     }
 }
-/*Querie pra 400px*/
+/*portrait 400px querie*/
 @media screen and (max-width: 400px) {
     .header-container {
         background: url('https://i.imgur.com/OnxSiPt.png');
@@ -164,7 +164,6 @@ body {
         margin-top: 10vw;
     }
 }
-
 @media (orientation: landscape) {
     
   .midcontent-texts {
@@ -178,6 +177,65 @@ body {
         height:50vh;
     }
     
-} 
-  
+}
+/* 800px landscape querie*/
+@media screen and (max-width: 800px) and (orientation : landscape ){
+    
+    .header-texts h1 {
+        font-size: 10vw;
+    }
+    .header-texts p {
+        font-size: 5vw;
+    }
+    
+    .midcontent-texts {
+        flex-direction: row;
+        text-align: center;
+    }
+    .bottomcontent-texts {
+        flex-direction: row;
+    }
+    .midcontent-texts img {
+        height: 20vw;
+    }
+    .bottomcontent-texts img {
+        height:20vw;
+    }
+}
+ /* 400px landscape querie*/ 
+@media screen and (max-width: 400px) and ( orientation: landscape) {
+    .header-container {
+        background: url('https://i.imgur.com/OnxSiPt.png');
+        background-position:90%;
+        background-size: cover;
+    
+    }
+    .header-texts p {
+        color: #ddc177;
+        font-weight: 600;
+        
+    }
+    .midcontent-texts {
+        flex-direction: row;
+        text-align: center;
+    }
+    .bottomcontent-texts {
+        flex-direction: row;
+    }
+    .midcontent-texts img {
+        height: 30vw;
+        
+    }
+    
+    .bottomcontent-texts img {
+        height:30vw;
+    }
+    .footer-container h1 {
 
+        font-size: 3vw;
+    }
+    .footer-container {
+        height: 20vw;
+        margin-top: 10vw;
+    }
+}
