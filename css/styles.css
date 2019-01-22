@@ -1,3 +1,4 @@
+/*Reset*/
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
 body {
     background: #f3f3f3;
 }
+/*Começo do header*/
 .header-container {
     display: flex;
     background: url('https://i.imgur.com/OnxSiPt.png');
@@ -27,6 +29,7 @@ body {
 .header-texts span {
     color: #0c292f;
 }
+/*Começo do container no meio*/
 .midcontent-container {
     height: 80vh;
     margin: 2vw 2vw 0 2vw;
@@ -57,7 +60,7 @@ body {
 
     width: 80vw;
 }
-
+/* Começo do container inferior*/
 .bottomcontent-container {
     height: 80vh;
     margin: 0vw 2vw 0 2vw;
@@ -94,6 +97,7 @@ body {
     width:80vw;
 
 }
+/*Começo do footer*/
 .footer-container {
     display: flex;
     justify-content: center;
@@ -106,7 +110,9 @@ body {
     padding: 2vw;
     color: #f3f3f3;
 }
+/*Queries*/
 
+/*Querie pra 800px*/
 @media screen and (max-width: 800px) {
     
     .header-texts h1 {
@@ -127,6 +133,7 @@ body {
         height:50vh;
     }
 }
+/*Querie pra 400px*/
 @media screen and (max-width: 400px) {
     .header-container {
         background: url('https://i.imgur.com/OnxSiPt.png');
