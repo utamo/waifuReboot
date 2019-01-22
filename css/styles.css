@@ -164,3 +164,20 @@ body {
         margin-top: 10vw;
     }
 }
+
+@media (orientation: landscape) {
+    
+  .midcontent-texts {
+        flex-direction: row;
+        text-align: center;
+    }
+    .bottomcontent-texts {
+        flex-direction: row;
+    }
+    .bottomcontent-texts img {
+        height:50vh;
+    }
+    
+} 
+  
+
