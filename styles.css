@@ -1,0 +1,22 @@
+body {
+    background-color: #3c3636;
+}
+.dick-container {
+    display: flex;
+    
+}
+.dick-balls {
+    height: 40px;
+    width: 20px;
+    background: #8a2323;
+}
+.dick-body {
+    height: 20px;
+    width: 60px;
+    background: #a35050;
+}
+.dick-head {
+    height: 20px;
+    width: 20px;
+    background: #f84b69;
+}
