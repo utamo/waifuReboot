@@ -1,3 +1,5 @@
+* {
+    transition: all 1s;
 body {
     background-color: #3c3636;
 }
